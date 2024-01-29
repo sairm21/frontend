@@ -1,3 +1,4 @@
 @Library('roboshop') _
 
-web()
+env.cibuild = "web"
+CI()
